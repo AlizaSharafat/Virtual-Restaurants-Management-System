@@ -1,40 +1,86 @@
-# Virtual-Restaurants-Management-System
+# Virtual Restaurants Management System
 
-A fully functional food ordering system built in C++ as a console application. Supports 20+ real Lahore restaurants across four cuisines, with end-to-end order placement, discount handling, bill generation, and order tracking.
+A fully functional food ordering system built in C++ as a console application.  
+Supports 20+ Lahore restaurants across multiple cuisines with complete order placement, billing, and tracking functionality.
 
-Features
+---
 
-Multi-cuisine support: Italian, Pakistani, Chinese, and Japanese restaurants — 20+ establishments with real menus and prices
-Full ordering flow: Browse menus → select items → set quantities → modify or remove items → confirm order
-Customer management: Collects name, address, and phone number with input validation
-Discount system: Influencer promo codes applied at checkout with automatic bill recalculation
-Dual-currency billing: Totals displayed in both PKR and USD with live conversion
-Order tracking: Track active order status post-placement
-Special instructions: Free-text delivery notes attached to each order
-Randomized order IDs: 9-digit order numbers generated at confirmation
-Dynamic console UI: Formatted, centered order receipts that adapt to console window width
+## Features
 
+- Multi-cuisine support (Italian, Pakistani, Chinese, Japanese)
+- Full ordering workflow with cart modification
+- Customer information validation
+- Discount and promo code system
+- Dual-currency billing (PKR & USD)
+- Order tracking system
+- Delivery instructions support
+- Randomized 9-digit order IDs
+- Dynamic formatted console UI
 
-Restaurants Included
-CuisineRestaurantsItalianItalian Express, Paola's Cosa Nostra, Italian Slice, Tuscany Courtyard, EI MomentoPakistaniHaveli, Salt 'n Pepper, DERA, Bundo Khan, MonalChineseXiwang, PF Chang's, Mandarin Chinese, Lung Fung, Yum Chinese & ThaiJapaneseWasabi, KAI, Jushi, Fujiyama, Sukhi Sushi
+---
 
-Tech Stack
+## Restaurants Included
 
-Language: C++
-Libraries: iostream, fstream, string, iomanip, windows.h
-Data: Menu data stored in .txt files, loaded via ifstream
-UI: Console-based with dynamic formatting using setw and iomanip
+### Italian
+- Italian Express
+- Paola's Cosa Nostra
+- Italian Slice
+- Tuscany Courtyard
+- El Momento
 
+### Pakistani
+- Haveli
+- Salt 'n Pepper
+- DERA
+- Bundo Khan
+- Monal
 
-Project Structure
+### Chinese
+- Xiwang
+- PF Chang's
+- Mandarin Chinese
+- Lung Fung
+- Yum Chinese & Thai
+
+### Japanese
+- Wasabi
+- KAI
+- Jushi
+- Fujiyama
+- Sukhi Sushi
+
+---
+
+## Tech Stack
+
+| Component | Details |
+|---|---|
+| Language | C++ |
+| Libraries | iostream, fstream, string, iomanip, windows.h |
+| Data Storage | `.txt` menu files loaded using `ifstream` |
+| Interface | Console-based UI using `setw` and `iomanip` |
+
+---
+
+## Project Structure
+
+```plaintext
+Virtual-Restaurants-Management-System/
+│
 ├── Code/
-│   └── Project_CPP.cpp          
+│   └── Project_CPP.cpp
 │
 ├── Data/
 │   ├── Italian Express.txt
 │   ├── Paola's Cosa Nostra.txt
-│   ├── ... ( .txt files)
-│   └── confirm.txt         
-     
-Course
-Object-Oriented Programming 
+│   ├── ... (menu files)
+│   └── confirm.txt
+│
+└── README.md
+```
+
+---
+
+## Course
+
+Object-Oriented Programming (OOP)
